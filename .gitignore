@@ -1,0 +1,12 @@
+# Gitea binary (download from https://dl.gitea.com/gitea/)
+/gitea
+
+# Runtime state — contains secrets (app.ini, admin password) and the database
+/custom/
+/data/
+/log/
+/.admin-password
+/.start-gitea.lock
+
+# Local test repo
+/test-repo/
